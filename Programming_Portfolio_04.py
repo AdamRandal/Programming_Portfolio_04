@@ -23,3 +23,15 @@ def CaseCheck(UserInput):
 #CaseCheck(UserInput)
 
 #Three
+#Name = input("Enter your Name: ")
+#Name1 = Name[0].upper()
+#Name2 = Name[1:].lower()
+#print(Name1+Name2)
+
+#Four
+#UserInput = input("Enter a string: ")
+def RemLasCha(UserInput):
+    if len(UserInput) > 1:
+        print(UserInput[:-1])
+
+#RemLasCha(UserInput)
